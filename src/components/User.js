@@ -32,7 +32,10 @@ class User extends Component {
                     </div>
                     <div className="Dir-container">
                         <p>
-                            Please follow these directions to how to use this app.
+                            Please follow these directions for how to use this app.<br/>
+                            Please select the range of dates you can attend the event.<br/>
+                            only select one set of dates.
+
                         </p>
                     </div>
                 </div>

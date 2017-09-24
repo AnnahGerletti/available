@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+
 import logo from '../logo.svg';
 import '../App.css';
+import Register from './Register'
 
 class Admin extends Component {
   render() {
@@ -10,9 +12,9 @@ class Admin extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Future Admin page</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="Register-form">
+          <Register />
+        </div>
       </div>
     );
   }
