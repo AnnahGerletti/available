@@ -12,7 +12,7 @@ class Admin extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Future Admin page</h2>
         </div>
-        <div className="Register-form">
+        <div>
           <Register />
         </div>
       </div>
