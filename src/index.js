@@ -12,8 +12,7 @@ ReactDOM.render((
     <div>
       <Route exact path='/' component={App} />
       <Route exact path='/admin' component={Admin} />
-    </div>  
+    </div>
   </Router>
 ), document.getElementById('root'))
-
 registerServiceWorker();
